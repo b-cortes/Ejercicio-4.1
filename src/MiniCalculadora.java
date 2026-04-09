@@ -7,4 +7,10 @@ public class MiniCalculadora {
             return Math.abs(numero);
         }
 
+    /**
+     * Método que recibe un número double y devuelve su raíz cuadrada.
+     */
+    public double raizCuadrada(double numero) {
+        return Math.sqrt(numero);
+    }
 }
